@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Row, Col, Typography, Timeline } from 'antd'
-import Title from 'antd/lib/skeleton/Title';
 import { CaretRightOutlined, CaretUpOutlined } from '@ant-design/icons';
 import TimelineItem from 'antd/lib/timeline/TimelineItem';
 
@@ -9,10 +8,7 @@ export default class Resume extends Component {
   render() {
     const img = "https://images.unsplash.com/photo-1623284577359-a0130bb9a86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80";
     const { Title } = Typography;
-    const mystyle = {
-      color: "white",
-    };
-
+   
     return (
       <div style={{ backgroundImage: "url(" + img + ")", backgroundSize: "cover", borderWidth: 0, backgroundRepeat: "no-repeat" }}>
         <div style={{ justifyContent: "center", alignItems: "center", flexDirection: "column", display: "flex" }}>
@@ -52,11 +48,5 @@ export default class Resume extends Component {
       </div>
 
     )
-  }
-}
-
-const styles = {
-  p: {
-    color: "#FFF"
   }
 }

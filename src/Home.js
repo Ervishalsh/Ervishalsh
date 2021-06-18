@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, Typography, Row, Col, Image } from 'antd';
+import { Typography, Row, Col, Image } from 'antd';
 
 
 export default class Home extends Component {

@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import { Card, Row, Col, Space, Image } from 'antd'
-import { PhoneOutlined, TwitterOutlined, FacebookOutlined, LinkedinOutlined, GithubOutlined, InstagramOutlined, LinkedinFilled, GithubFilled } from '@ant-design/icons'
+import { PhoneOutlined, TwitterOutlined,LinkedinFilled, GithubFilled } from '@ant-design/icons'
 import Title from 'antd/lib/typography/Title';
-import Avatar from 'antd/lib/avatar/avatar';
 
 export default class Contact extends Component {
     render() {
@@ -26,13 +25,13 @@ export default class Contact extends Component {
                                             <PhoneOutlined style={{ fontSize: '24px'}} /> +918527384897
                                       </a>
                                         <Space>
-                                            <a href="Twiter: twiter" >
+                                            <a href="https://twitter.com/VishalS02568419" >
                                                 <TwitterOutlined style={{ fontSize: '24px'}} />
                                             </a>
-                                            <a>
+                                            <a href="https://www.linkedin.com/in/ervishalshukla">
                                                 <LinkedinFilled style={{ fontSize: '24px'}} />
                                             </a>
-                                            <a>
+                                            <a href="https://github.com/Ervishalsh">
                                                 <GithubFilled style={{ fontSize: '24px'}} />
                                             </a>
                                         </Space>
