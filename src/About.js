@@ -12,24 +12,16 @@ export default class About extends Component {
 
         };
         return (
-            <div style={{ backgroundImage: "url(" + img + ")", backgroundSize: "cover", borderWidth: 0, backgroundRepeat: "no-repeat" }}>
+            <div style={{ height: '100%', backgroundImage: "url(" + img + ")", backgroundSize: "cover", borderWidth: 0, backgroundRepeat: "no-repeat" }}>
                 <Row>
-                    <Col span={12} style={{}}>
-                        <div>
-                            <Title style={mystyle}>Hi There, I am
-                            Vishal Shukla
-                    </Title>
-                            <Title style={mystyle}>Hi There, I am
-                            Vishal Shukla
-                    </Title>
-                            <Title style={mystyle}>Hi There, I am
-                            Vishal Shukla
-                    </Title>
-
+                    <Col span={12}>
+                        <div style={{ marginTop: 200,alignContent:"center", justifyContent: "center", alignItems: "center", flexDirection: "column", display: "flex",flex:1 }}>
+                            <Title style={{ color: "#FFF" }}>Know Who I'M,</Title>
+                            <Title level={3} style={{ color: "#FFF",marginLeft:50,marginRight:50 }}>Hi Everyone, I am Vishal Shukla, an aspiring Software Engineer from India. I am pursuing B.tech (ECE) from IIMT, Greater Noida UP. </Title>
                         </div>
                     </Col>
                     <Col span={12}>
-                        <Image src="https://soumyajit.tech/static/media/home-main.541f8179.svg" preview={false} />
+                        <Image src="https://soumyajit.tech/static/media/about.aee0f771.png" preview={false} />
                     </Col>
                 </Row>
             </div>

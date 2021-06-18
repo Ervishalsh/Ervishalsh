@@ -12,20 +12,16 @@ export default class Home extends Component {
 
         };
         return (
-            <div style={{ backgroundImage: "url(" + img + ")", backgroundSize: "cover", borderWidth: 0, backgroundRepeat: "no-repeat" }}>
+            <div style={{height:'100%', backgroundImage: "url(" + img + ")", backgroundSize: "cover", borderWidth: 0, backgroundRepeat: "no-repeat" }}>
                 <Row>
                     <Col span={12} style={{}}>
-                        <div>
-                            <Title style={mystyle}>Hi There, I am
-                            Vishal Shukla
+                        <div style={{marginTop:250,justifyContent:"center",alignItems:"center",flexDirection:"column",display:"flex"}}>
+                            <Title style={mystyle}>Hi There,
                     </Title>
                             <Title style={mystyle}>Hi There, I am
                             Vishal Shukla
                     </Title>
-                            <Title style={mystyle}>Hi There, I am
-                            Vishal Shukla
-                    </Title>
-
+                         
                         </div>
                     </Col>
                     <Col span={12}>
