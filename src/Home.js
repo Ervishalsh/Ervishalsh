@@ -4,7 +4,6 @@ import { Typography, Row, Col, Image } from 'antd';
 
 export default class Home extends Component {
     render() {
-        const img = "https://images.unsplash.com/photo-1623284577359-a0130bb9a86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80";
         const { Title } = Typography;
         const mystyle = {
             color: "white",
@@ -12,10 +11,10 @@ export default class Home extends Component {
 
         };
         return (
-            <div style={{height:'100%', backgroundImage: "url(" + img + ")", backgroundSize: "cover", borderWidth: 0, backgroundRepeat: "no-repeat" }}>
+            <div className="bg">
                 <Row>
                     <Col span={12} style={{}}>
-                        <div style={{marginTop:250,justifyContent:"center",alignItems:"center",flexDirection:"column",display:"flex"}}>
+                        <div className="hm">
                             <Title style={mystyle}>Hi There,
                     </Title>
                             <Title style={mystyle}>Hi There, I am
