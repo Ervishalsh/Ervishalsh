@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Card, Row, Col, Space, Image, Typography } from 'antd'
 import { PhoneOutlined, TwitterOutlined, LinkedinFilled, GithubFilled } from '@ant-design/icons'
+import IMG from './IMG.jpg'
 
 const { Title, Text } = Typography;
 
@@ -14,7 +15,7 @@ export default class Contact extends Component {
                         <Card style={{ backgroundColor: "#F0F8FF" }}>
                             <Row>
                                 <Col span={12}>
-                                    <Image preview={false} src="https://lh3.googleusercontent.com/pONwLjdBq6yIghEkulADCQJebMJf5Bx36dzOfjVyG7zZR3s_8omTAcauXCOaQ7VJpQ0MnHiBmu23SwHFauSTM_0H4pYu_Md_jVQj_gOTnXaqIolu32JXFOjfxqUhSesvs2fF3bnUr1ympFiuTMznoO8JMRXYIgZIwaFSRjBX_-STC5FV75-WnCztBvhrTw9a8gukvPK3YHIKOAnQe51jvVyP59BiYPRGheRLC9qnJXGRjHwF-768s3swKfyyMMx6cJzFyPp7J8CzXGAdcVNRBxh9RV-UkJeMJXp8JkEC5TQy3_BTAlkK44hdYiTFvjZxh0MovOFjce4BHxL98mhYHtziN6hwE86a8KG5dLMrR3h8l0TnzrXdReSoWB26IQR5-5lRMWwJgPvZdB9aQTrLwxna4Wels91opjF1aYNxLJQsNPUGmF-w3DHjmB189XtUcYi9RMJNscRlPDQF7g63TPX2NPh4y5vZaSdj34DLgaJ0Kcs7vZkZeLtBYTaS1_kPYwUgUOjGcjrj8pecEqCeL6OxtvdkT_t3INTydN_R_S8f50plOnu2IHG2jAWFJ9GGRIc6idtDSPGsaGJp9vlJGvEwMEJNOxgojxZJ0DXwU809eNdvJD05O98RV9cgW6__6QvNyGf8ENAZWd3iEmzuZV0rj7kbjqwVCwrAWmig92JVMduJJyZYCSeoi-yX92e-k5ZxfepliBGKdWeue9T8CXA=w736-h981-no?authuser=0" />
+                                    <Image preview={false} src={IMG} />
                                 </Col>
                                 <Col span={12}>
                                     <div className="cs" >
