@@ -1,17 +1,18 @@
 import React, { Component } from 'react'
-import { Row, Col, Typography, Timeline } from 'antd'
-import { CaretRightOutlined, CaretUpOutlined } from '@ant-design/icons';
+import { Row, Col, Typography, Timeline, Button } from 'antd'
+import { CaretRightOutlined, CaretUpOutlined, DownloadOutlined } from '@ant-design/icons';
 import TimelineItem from 'antd/lib/timeline/TimelineItem';
-
+import cv from './cv.pdf'
 
 export default class Resume extends Component {
   render() {
     const { Title } = Typography;
-   
+
     return (
       <div className="bg">
-      <div className="rs" >
-          <Title style={{ color: "#FFF" }} >Education</Title>
+        <div className="rs" >
+          
+          <Title style={{ padding: 15 ,color: "#FFF" }} >Education</Title>
           <Row>
             <Col span={16} offset={4}>
               <Timeline>
@@ -42,7 +43,11 @@ export default class Resume extends Component {
             </Col>
 
           </Row>
-
+          <Row>
+            <Button type="primary" href={cv} shape="round" icon={<DownloadOutlined />} style={{ blockSize: 40, fontSize: 20 }}>
+              Download CV
+        </Button>
+          </Row>
         </div>
       </div>
 
